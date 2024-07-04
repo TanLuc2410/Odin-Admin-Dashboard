@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+ --grey: #e5e7eb;
+ --pallet-blue: #67e8f9;
+}
+
+*, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    /* overflow-y: scroll; */
+}
+h1 {
+    font-size: 1.6rem;
+}
+h2 {
+    font-size: 1.2rem;
+}
+h3 {
+    font-size: 1rem;
+}
+.header {
+    background-color: rgb(255,255,255);
+}
+.main {
+    background-color: #e5e7eb;
+}
+.project-card {
+    background-color: #ffffff;
+}
+.side-nav {
+    background-color: rgb(91, 157, 250);
+}
+footer {
+    background-color: #ffffff;
+}
+
+/*==================== SIDEBAR ===================*/ /*Add interactivity later*/
+.side-nav a {
+    color: white;
+    width: 100%;
+}
+.side-nav {
+    border-radius: 0.5px solid black;
+}
+
+/*==================== HEADER ===================*/
+/*==================== HEADER-TOP ===================*/
+
+input[type="search"] {
+    border: 1px solid var(--grey);
+    border-radius: 20px;
+    font-family: 'Roboto';
+    background-color: var(--grey);
+    transition: box-shadow 0.5s ease;
+    height: 42px;
+    padding: 16px;
+}
+
+input[type="search"]:hover {
+    box-shadow: 0 0 3px #646464;
+}
+
+input[type="search"]:focus {
+    border: 2px solid #38bdf8;
+}
+
+.header {
+    box-shadow: 5px 0px 10px black;
+    border-bottom: 0.5px solid #e1e1e1;
+}
+.header .top-left label {
+    cursor: pointer;
+}
+.header .top-right span {
+    font-size: 1.8rem;
+    transition: all 0.5s ease;
+}
+.header .top-right span:hover {
+    cursor: pointer;
+    color: #656565;
+}
+
+.header .top-right img {
+    width: 3.5rem;
+    transition: all 1s ease;
+    border-radius: 100%;
+}
+.header  .top-right img:hover {
+    background-color: var(--pallet-blue);
+}
+
+.header .top-right img {
+    width: 3.5rem;
+    transition: all 1s ease;
+    border-radius: 100%;
+}
+.header .top-right img:hover {
+    background-color: var(--pallet-blue);
+    cursor: pointer;
+}
+/*==================== HEADER BOTTOM ===================*/
+.header .bottom-left img {
+    width: 5rem;
+    transition: all 1s ease;
+    border-radius: 100%;
+}
+.header .bottom-left img:hover {
+    background-color: var(--pallet-blue);
+    cursor: pointer;
+}
+.header .bottom-right button {
+    /* padding: 0.8rem 1.4rem; */
+    background-color: #38bdf8;
+    color: #fff;
+    border-radius: 12px;
+    height: 42px;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    
+}
+.header .bottom-right button:hover {
+    background-color: #0094d3;
+    box-shadow: 0 0 2px #646464;
+    cursor: pointer;
+}
+/*==================== YOUR-PROJECTS ===================*/
+.projects p {
+    margin-bottom: 16px;
+}
+.project-card {
+    padding: 32px;
+    border-left: 6px solid yellow;
+}
+.project-card p {
+    margin: 8px 0 32px 0;
+    color: #656565;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.project-card h4 {
+    font-size: 1.2rem;
+}
+.project-card span {
+    transition: all 0.5s ease;
+}
+.project-card span:hover {
+    cursor: pointer;
+    color: #656565;
+}
+.section-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+/*==================== ANNOUNCEMENTS ===================*/
+.announcements > div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #fff;
+    padding: 32px;
+    border-radius: 12px;
+    font-size: 16px;
+}
+.announcements > div > div > p:first-child {
+    font-weight: 700;
+    margin: 0;
+    font-size: 1.1rem;
+    padding: 0 8px;
+}
+.announcements > div > div > p:nth-child(2) {
+    color: #656565;
+    padding: 0 8px;
+    margin: 4px 0 0 0;
+}
+.announcements > div > div:nth-child(2) {
+    border-top: 1px solid #e1e1e1;
+}
+.announcements > div > div:nth-child(2) > p:first-child {
+    padding-top: 16px;
+}
+
+.announcements > div > div:nth-child(3) {
+    border-top: 1px solid #e1e1e1;
+}
+.announcements > div > div:nth-child(3) > p:first-child {
+    padding-top: 16px;
+}
+/*==================== TRENDING ===================*/
+.trending .profile-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    transition: all 0.5s ease;
+}
+.trending .profile-picture:hover {
+    background-color: var(--pallet-blue);
+}
+
+.trending > div {
+    background-color: #ffffff;
+    padding: 32px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.trending > div > div {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+.trending > div > div > div > p:nth-child(2) {
+    color: #656565;
+    margin-top: 5px;
+}
+
+/*==================== FOOTER ===================*/
+footer {
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.5px solid #e1e1e1;
+}
