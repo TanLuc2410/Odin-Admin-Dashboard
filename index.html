@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP: Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="layout.css" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+<body>
+    <nav class="side-nav">
+        <div class="logo">
+            <a class="logo-link" href="#">
+                <span class="material-icons-sharp">
+                    dashboard
+                </span>
+              <h1>Dashboard</h1>
+            </a>
+        </div>
+
+
+        <div class="menu">
+            <ul>
+              <a href="#">
+                <li class="sidebar-link selected">
+                    <span class="material-icons-sharp">
+                        home
+                    </span>
+                  <h2>Home</h2>
+                </li>
+              </a>
+              <a href="#">
+                <li class="sidebar-link">
+                    <span class="material-icons-sharp">
+                        badge
+                    </span>
+                  <h2>Profile</h2>
+                </li>
+              </a>
+              <a href="#">
+                <li class="sidebar-link">
+                    <span class="material-icons-sharp">
+                        forum
+                    </span>
+                  <h2>Messages</h2>
+                </li>
+              </a>
+              <a href="#">
+                <li class="sidebar-link">
+                    <span class="material-icons-sharp">
+                        watch_later
+                    </span>
+                  <h2>History</h2>
+                </li>
+              </a>
+              <a href="#">
+                <li class="sidebar-link">
+                    <span class="material-icons-sharp">
+                        task
+                    </span>
+                  <h2>Tasks</h2>
+                </li>
+              </a>
+              <a href="#">
+                <li class="sidebar-link">
+                    <span class="material-icons-sharp">
+                        groups
+                    </span>
+                  <h2>Communities</h2>
+                </li>
+              </a>
+              <br/>
+              <a href="#">
+                <li class="sidebar-link">
+                    <span class="material-icons-sharp">
+                        settings
+                    </span>
+                  <h2>Settings</h2>
+                </li>
+              </a>
+              <a href="#">
+                <li class="sidebar-link">
+                    <span class="material-icons-sharp">
+                        help
+                    </span>
+                  <h2>Support</h2>
+                </li>
+              </a>
+              <a href="#">
+                <li class="sidebar-link">
+                    <span class="material-icons-sharp">
+                        verified_user
+                    </span>
+                  <h2>Privacy</h2>
+                </li>
+              </a>
+            </ul>
+        </div>
+
+    </nav>
+    <header class="header">
+        <div class="top-left">
+            <label for="search">
+                <span class="material-icons-sharp">
+                    search
+                </span>
+            </label>
+
+            <input type="search" id="search" name="search" placeholder="Search for your projects">
+        </div>
+
+        <div class="top-right">
+            <span class="material-icons-sharp">
+                notifications_none
+            </span>
+
+            <div>
+                <img src="./icons/cat-svgrepo-com.svg" alt="user-picture">
+            </div>
+            <h2>Just A Cat</h2>
+            <!--Might add light/dark theme in the future-->
+        </div>
+
+        <div class="bottom-left">
+            <div><img src="./icons/cat-svgrepo-com.svg" alt="user-picture"></div>
+            <div class="user-name">
+                <p>Hi there,</p>
+                <h1>Just A Cat(@definitely-not-a-cat)</h1>
+            </div>
+        </div>
+
+        <div class="bottom-right">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+        </div>
+    </header>
+    <main class="main">
+        <div class="projects">
+            <p class="section-title">Your Projects</p>
+            <div class="project-card-container">
+              <div class="project-card">
+                <div>
+                  <h4>Super Cool Project</h4>
+                  <p>
+                    Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin
+                    nibh erat, id facilsis felis accusman nec.
+                  </p>
+                </div>
+                <div class="project-card-icons">
+                    <span class="material-icons-outlined">
+                        bookmark_add
+                    </span>
+                    <span class="material-icons-outlined">
+                        delete
+                    </span>
+                    <span class="material-icons-outlined">
+                        share
+                    </span>
+                </div>
+              </div>
+              <div class="project-card">
+                <div>
+                  <h4>Less Cool Project</h4>
+                  <p>
+                    Nullam condimentum ipsum ut lectus vehicula consectetur.
+                    Quiseque sed dolor tincidunt, consectetur sapien et, facilsis
+                    dolor. Duis sem purus, dignissim ut sapien in, varius
+                    pellentesque lacus.
+                  </p>
+                </div>
+                <div class="project-card-icons">
+                    <span class="material-icons-outlined">
+                        bookmark_add
+                    </span>
+                  <span class="material-icons-outlined">
+                    delete
+                    </span>
+                    <span class="material-icons-outlined">
+                        share
+                    </span>
+                </div>
+              </div>
+              <div class="project-card">
+                <div>
+                  <h4>Impossible App</h4>
+                  <p>
+                    In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a
+                    placerat velit sagittis id.
+                  </p>
+                </div>
+                <div class="project-card-icons">
+                    <span class="material-icons-outlined">
+                        bookmark_add
+                    </span>
+                  <span class="material-icons-outlined">
+                    delete
+                    </span>
+                    <span class="material-icons-outlined">
+                        share
+                    </span>
+                </div>
+              </div>
+              <div class="project-card">
+                <div>
+                  <h4>Easy Peasy App</h4>
+                  <p>
+                    Etiam cursus eros ac efficiur fringilla. Vestibulum dignissim
+                    urna eget accumsan aliquam. Curabitur dignissim nisi in tortor
+                    commondo, ac bibendum magna tincidunt.
+                  </p>
+                </div>
+                <div class="project-card-icons">
+                    <span class="material-icons-outlined">
+                        bookmark_add
+                    </span>
+                  <span class="material-icons-outlined">
+                    delete
+                    </span>
+                    <span class="material-icons-outlined">
+                        share
+                    </span>
+                </div>
+              </div>
+              <div class="project-card">
+                <div>
+                  <h4>Ad Blocker</h4>
+                  <p>
+                    Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus
+                    vel, pharetra hendrerit felis. Aliquam sed malesuada eros.
+                  </p>
+                </div>
+                <div class="project-card-icons">
+                    <span class="material-icons-outlined">
+                        bookmark_add
+                    </span>
+                  <span class="material-icons-outlined">
+                    delete
+                    </span>
+                    <span class="material-icons-outlined">
+                        share
+                    </span>
+                </div>
+              </div>
+              <div class="project-card">
+                <div>
+                  <h4>Money Maker</h4>
+                  <p>
+                    Prasent convallis, libero quis congue elementum, nunc ante
+                    faucibus sapien, ac scelerisque tortor purus sit amet ex.
+                    Pellentesque mollis nec sem vel aliquam.
+                  </p>
+                </div>
+                <div class="project-card-icons">
+                    <span class="material-icons-outlined">
+                        bookmark_add
+                    </span>
+                  <span class="material-icons-outlined">
+                    delete
+                    </span>
+                    <span class="material-icons-outlined">
+                        share
+                    </span>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="announcements">
+            <p class="section-title">Announcements</p>
+            <div>
+            <div>
+            <p>Site Maintenance</p>
+            <p>
+                Vestibulum condimentum tellus lacus, in accumsan elit maximus ac.
+                Donec hendrerit sodales congue...
+            </p>
+            </div>
+            <div>
+            <p>Community Share Day</p>
+            <p>
+                Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam
+                dictum accumsan porttitor...
+            </p>
+            </div>
+            <div>
+            <p>Updated Privacy Policy</p>
+            <p>
+                Phasellus efficitur nisi eget elit consectetur, eget condimentum
+                ante auctor. Cras frigilla sagittis sem in mattis...
+            </p>
+            </div>
+            </div>
+        </div>
+        <div class="trending">
+        <p class="section-title">Trending</p>
+        <div>
+            <div>
+                <img class="profile-picture" src="icons/lion-svgrepo-com.svg" alt="profile-picture-1"/>
+                <div>
+                    <p>@tegan</p>
+                    <p>World Peace Builder</p>
+                </div>
+            </div>
+            <div>
+                <img class="profile-picture" src="icons/monkey-svgrepo-com.svg" alt="profile-picture-2" />
+                <div>
+                    <p>@emuel</p>
+                    <p>Super Cool Project</p>
+                </div>
+            </div>
+            <div>
+                <img class="profile-picture" src="icons/panda-svgrepo-com.svg" alt="profile-picture-3" />
+                <div>
+                    <p>@kendall</p>
+                    <p>Life Changing App</p>
+                </div>
+            </div>
+            <div>
+                <img class="profile-picture" src="icons/unicorn-svgrepo-com.svg" alt="profile-picture-4" />
+                <div>
+                    <p>@alex</p>
+                    <p>No Traffic Maker</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <p>TOP: Made by <a href="https://github.com/TanLuc2410" target="_blank">Tan Luc</a> &#129505;</p>
+    </footer>
+</body>
+</html>
